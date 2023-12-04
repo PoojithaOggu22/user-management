@@ -1,0 +1,12 @@
+println("-- Start In Root Settings.gradle...")
+
+rootProject.name = 'user'
+
+// submodules
+include 'user-app'
+include 'user-dao'
+include 'user-data-model'
+include 'user-api'
+
+println("-- Finish In Root Settings.gradle...")
+
